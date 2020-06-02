@@ -1,8 +1,9 @@
 class a:
     x = 0
+
     def __init__(self):
         print("cons")
-        self.x=3
+        self.x = 3
         print(self.x)
 
     def hmm(self):
@@ -12,9 +13,10 @@ class a:
     def __del__(self):
         print("destruc")
 
+
 ob = a()
-ob.hmm( )
+ob.hmm()
 ob.hmm()
 print(ob.x)
-ob =0
+ob = 0
 print(ob)
